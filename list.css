@@ -9,7 +9,7 @@
             width:330px;
             height:65px;
             text-align: left;
-            border-radius: 5px;
+            border-radius: 8px;
             z-index: 1;
         }
         .list a{
@@ -61,7 +61,7 @@
             list-style: none;
             display:inline-block;
             background-color:#eb4d3e;
-            border-radius: 5px;
+            border-radius: 8px;
         }
         .underlist li{
             width:330px;
