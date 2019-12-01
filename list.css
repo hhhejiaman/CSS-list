@@ -1,0 +1,111 @@
+        @font-face {
+            font-family:"myFont";
+            src: url(./statics/webfont.woff2);
+        }
+        .list{
+            position: relative;
+            background-color:#eb4d3e ;
+            margin:50px auto;
+            width:330px;
+            height:65px;
+            text-align: left;
+            border-radius: 5px;
+            z-index: 1;
+        }
+        .list a{
+            color:white;
+            text-decoration: none;
+            font-size: 27px;
+            font-family: "myFont", serif;
+            line-height: 65px;
+        }
+        .list span a:after{
+            content:"";
+            display:inline-block;
+            width: 0;
+            height: 0;
+            border-width: 10px;
+            border-style: solid;
+            border-color: white transparent transparent transparent;
+            position:absolute;
+            z-index:4;
+            top:30px;
+            margin-left: 30px;
+
+        }
+        .list:hover{
+            background-color: rgb(202, 84, 84);
+        }
+        .list:hover span{
+            background-color: rgb(202, 84, 84);
+        }
+        .list:hover  .underlist{ 
+            display:block;  
+        } 
+        .underlist{
+            padding-top:26px;
+            display: none;
+        }
+        .underlist li:first-child:before {
+            content:"";
+            width: 0;
+            height: 0;
+            border-width: 10px;
+            border-style: solid;
+            border-color: transparent transparent #eb4d3e transparent;
+            position:absolute;
+            top:87px;
+            left:250px;
+        }
+        ul{
+            list-style: none;
+            display:inline-block;
+            background-color:#eb4d3e;
+            border-radius: 5px;
+        }
+        .underlist li{
+            width:330px;
+            height:65px;
+            margin-left: -40px;
+            padding:0px;
+            font-size: 27px;
+            font-family: 'myFont',serif;
+            line-height: 55px;
+            color:white;
+            border-bottom:1px solid #ffffff;
+        }
+        .pic1 {
+            background-image: url(./statics/f.png);
+            background-repeat: no-repeat;
+            background-size: 150px 100px;
+            background-position: 20px -31px;
+        }
+        .pic2 {
+            background-image: url(./statics/f.png);
+            background-repeat: no-repeat;
+            background-size: 150px 100px;
+            background-position: -44px 16px;
+        }
+        .pic3 {
+            background-image: url(./statics/f.png);
+            background-repeat: no-repeat;
+            background-size: 150px 100px;
+            background-position: 22px 18px;
+        }
+         .undertext{
+            background-color:#eb4d3e;
+            display: inline-block;
+            margin-left: 75px;
+            height: 100%;
+            text-decoration: none;
+            color: white;
+            text-align: left;
+        }
+        .underlist li:hover {
+            background-color:  rgb(202, 84, 84);
+            color:white;
+        }
+        .underlist li:hover .undertext{
+            background-color:  rgb(202, 84, 84);
+            color:white;
+        }
