@@ -84,24 +84,23 @@
             border-bottom: 1px solid #ffffff;
         }
         
-        .pic-heart {
-            background-image: url(./statics/f.png);
+        .pic-all {
             background-repeat: no-repeat;
             background-size: 150px 100px;
+        }
+        
+        .pic-heart {
+            background-image: url(./statics/menu-pic.png);
             background-position: 20px -31px;
         }
         
         .pic-star {
-            background-image: url(./statics/f.png);
-            background-repeat: no-repeat;
-            background-size: 150px 100px;
+            background-image: url(./statics/menu-pic.png);
             background-position: -44px 16px;
         }
         
         .pic-chat {
-            background-image: url(./statics/f.png);
-            background-repeat: no-repeat;
-            background-size: 150px 100px;
+            background-image: url(./statics/menu-pic.png);
             background-position: 22px 18px;
         }
         
